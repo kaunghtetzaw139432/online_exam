@@ -86,27 +86,7 @@ It uses **MySQL** as the database to store users, exams, questions, choices, stu
 | exam_id    | INT  | Foreign key → exams(id) |
 | score      | INT  | Exam score              |
 
----
 
-OnlineExamSystem/
-├─ src/
-│  ├─ App.java              # Main application with menu
-│  ├─ User.java             # Defines User object
-│  ├─ Admin.java            # Admin-specific operations
-│  ├─ Student.java          # Student-specific operations
-│  ├─ Question.java         # Question model
-│  ├─ Choice.java           # Choice model
-│  ├─ Exam.java             # Exam model
-│  ├─ ExamManager.java      # Manage exams & questions
-│  ├─ ExamService.java      # Handles student exams & scoring
-│  ├─ DBHandler.java        # Database connection & operations
-│  ├─ Helper.java           # Utility methods / menu / formatting
-├─ README.md                # Project description
-├─ .gitignore               # Ignore compiled files / IDE folders
-
-
-
----
 
 ## Usage
 
